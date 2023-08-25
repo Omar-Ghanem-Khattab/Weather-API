@@ -1,0 +1,20 @@
+.container input::placeholder{
+    color: white;
+    opacity: 1;
+}
+ul .li{
+    color: black ;
+}
+#hero {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.degree{
+    font-size: 5.625rem ;
+}
+#inputAddData{
+    background-color: black;
+}

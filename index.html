@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body class="bg-dark" data-bs-spy="scroll" data-bs-target="#navbar-example2"  > 
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 d-flex p-5 text-white" data-bs-theme="dark">
+        <a class="navbar-brand me-auto ms-auto" href="#Home"><img src="img/logo.png" alt="" class=""> Weather</a>
+        <ul class="nav nav-pills me-auto ms-auto ">
+          <li class="nav-item  mx-2">
+            <a class="nav-link " href="#scrollspyHeading1">Home</a>
+          </li>
+          <li class="nav-item  mx-2">
+            <a class="nav-link" href="#scrollspyHeading2">News</a>
+          </li>
+          <li class="nav-item  mx-2">
+            <a class="nav-link" href="#scrollspyHeading2">Live Cameras</a>
+          </li>
+          <li class="nav-item  mx-2">
+            <a class="nav-link" href="#scrollspyHeading2">Photos</a>
+          </li>
+          <li class="nav-item  mx-2">
+            <a class="nav-link" href="#scrollspyHeading2">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div id="hero">
+      <div class="container align-items-center justify-content-center d-flex text-light position-relative"  >
+        <input type="text"  class="form-control my-5 w-100  text-center  text-light  rounded-5 " placeholder="Find Your Location" id="inputAddData" >
+      </div>
+      <section >
+        <div class="container ">
+          <div class="row g-0 ">
+            <div class="col-lg-4 ">
+              <div class="headerdiv bg-black text-light p-2 rounded rounded-bottom-0">
+                <div class="date float-end"></div>
+                <div id="today" class="day "></div>
+              </div>
+              <div class="location-info text-light shadow shadow-lg displayInfo rounded rounded-top-0 bg-dark p-4">
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="headerdiv bg-dark  text-light p-2  rounded rounded-bottom-0">
+                <div class="date2 float-end"></div>
+                <div id="tomorrow" class="day"></div>
+              </div>
+              <div class="location-info text-light displayInfo bg-black p-4 rounded rounded-top-0" >
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <div class="headerdiv bg-black  text-light p-2  rounded rounded-bottom-0">
+                <div class="date3 float-end"></div>
+                <div id="after" class="day"></div>
+              </div>
+              <div class="location-info text-light displayInfo bg-dark p-4 rounded rounded-top-0" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a href=""><i class=""></i></a>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
